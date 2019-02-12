@@ -67,9 +67,9 @@ def main():
     else:
         # save location
         name = sys.argv[1]
-        data_dir = 'temp/'
+        data_dir = '../../image_samples/'
         os.makedirs(data_dir, exist_ok=True)
-        os.makedirs('temp/' + name, exist_ok=True)
+        os.makedirs('../../image_samples/' + name, exist_ok=True)
 
         # search image
         result = google.search(
